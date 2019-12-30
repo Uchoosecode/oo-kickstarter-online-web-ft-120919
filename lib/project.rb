@@ -9,5 +9,7 @@ class Project
     @title = "Project With So Much Amaze"
   end
   
+  def add_backer(backer)
+    @backers << backer
   
 end
